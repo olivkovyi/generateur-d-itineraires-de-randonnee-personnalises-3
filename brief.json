@@ -1,0 +1,269 @@
+{
+  "run_id": "run-1776103339958",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 1,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Explorez les sentiers français avec des randonnées adaptées à votre niveau et vos envies, du pique-nique fami…",
+    "notes": "Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d'intérêt et obtenez un itinéraire optimisé.\nMettre en avant la richesse du patrimoine naturel français. Intégrer des cartes interactives et des points de vue.\nCréez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d'intérêt et obtenez un itinéraire optimisé.\nCréez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d'intérêt et obtenez un itinéraire optimisé. Mettre en avant la richesse du patrimoine naturel français. Intégrer des cartes interactives et des points de vue.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "generator",
+    "archetype_mix": [
+      "generator"
+    ],
+    "forced_design_theme": "kinetic-minimal",
+    "forced_structure_preset": "split-command",
+    "site_idea_title": "Générateur d'Itinéraires de Randonnée Personnalisés",
+    "site_idea_summary": "Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d'intérêt et obtenez un itinéraire optimisé.",
+    "forced_slug": "generateur-d-itineraires-de-randonnee-personnalises-3"
+  },
+  "site_spec": {
+    "slug": "generateur-d-itineraires-de-randonnee-personnalises-3",
+    "theme": {
+      "name": "Kinetic Minimal",
+      "slug": "kinetic-minimal",
+      "eyebrow": "Modern Motion",
+      "family": "kinetic-minimal",
+      "moods": [
+        "clean",
+        "kinetic",
+        "modern",
+        "friendly"
+      ],
+      "archetypes": [
+        "tool",
+        "generator"
+      ],
+      "niches": [
+        "content tools",
+        "text tools",
+        "creative utility",
+        "productivity",
+        "education"
+      ],
+      "keywords": [
+        "editor",
+        "generator",
+        "copy",
+        "writing",
+        "productivity"
+      ],
+      "token_index": [
+        "clean",
+        "content",
+        "copy",
+        "creative",
+        "editor",
+        "education",
+        "friendly",
+        "generator",
+        "kinetic",
+        "minimal",
+        "modern",
+        "motion",
+        "productivity",
+        "text",
+        "tool",
+        "tools",
+        "utility",
+        "writing"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap",
+      "display_font": "\"Syne\", sans-serif",
+      "body_font": "\"IBM Plex Sans\", sans-serif",
+      "layout": "editorial",
+      "card_style": "glass",
+      "button_style": "outline",
+      "decor_style": "ribbons",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "70vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(130deg, #fafaf9 0%, #eef2ff 48%, #f5f3ff 100%)",
+        "surface": "rgba(255,255,255,0.86)",
+        "surface_border": "rgba(39,39,42,0.1)",
+        "text": "#18181b",
+        "muted": "#52525b",
+        "accent": "#2563eb",
+        "accent_alt": "#7c3aed",
+        "hero_glow": "rgba(124, 58, 237, 0.12)",
+        "button_text": "#f8fafc",
+        "panel_alt": "rgba(255,255,255,0.72)",
+        "shadow": "0 28px 70px rgba(63, 63, 70, 0.1)",
+        "input_fill": "rgba(24,24,27,0.03)"
+      }
+    },
+    "structure": {
+      "name": "Split Command",
+      "slug": "split-command",
+      "hero_variant": "split",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "family": "hero-first",
+      "moods": [
+        "clean",
+        "balanced",
+        "conversion"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "general utility",
+        "comparison",
+        "services"
+      ],
+      "keywords": [
+        "hero",
+        "conversion",
+        "balanced",
+        "operator"
+      ],
+      "token_index": [
+        "balanced",
+        "calculator",
+        "clean",
+        "command",
+        "comparison",
+        "conversion",
+        "faq",
+        "features",
+        "first",
+        "general",
+        "generator",
+        "hero",
+        "metrics",
+        "operator",
+        "proof",
+        "seo",
+        "services",
+        "split",
+        "tool",
+        "utility"
+      ]
+    },
+    "render_direction": "campaign-slab",
+    "render_direction_name": "Campaign Slab",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Générateur d'Itinéraires de Randonnée Personnalisés",
+    "tagline": "Votre Aventure Française sur Mesure",
+    "description": "Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Générer mon Itinéraire",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "name",
+        "label": "Nom ou entreprise",
+        "type": "text",
+        "placeholder": "Studio Horizon",
+        "weight": 1.0
+      },
+      {
+        "id": "goal",
+        "label": "Objectif du document",
+        "type": "text",
+        "placeholder": "confirmation de demande",
+        "weight": 1.0
+      },
+      {
+        "id": "details",
+        "label": "Détails utiles",
+        "type": "text",
+        "placeholder": "date, montant, référence",
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Campaign Slab",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Campaign Slab",
+      "Générer mon Itinéraire",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "showcase",
+    "faq_topic": "Générateur d'Itinéraires de Randonnée Personnalisés",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Générateur d'Itinéraires de Randonnée Personnalisés ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Générateur d'Itinéraires de Randonnée Personnalisés et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Générateur d&#x27;Itinéraires de Randonnée Personnalisés | Votre Aventure Française sur Mesure</title>\n    <meta name=\"description\" content=\"Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d\">\n    <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%234CAF50' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v-6h-2v6zm0-8h2V7h-2v2z'/%3E%3C/svg%3E\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');\n        :root {\n            --color-primary: #4CAF50;\n            --color-primary-dark: #388E3C;\n            --color-accent: #FFC107;\n            --color-background: #F8F9FA;\n            --color-surface: #FFFFFF;\n            --color-text-dark: #212529;\n            --color-text-light: #6C757D;\n            --gradient-soft: linear-gradient(135deg, #f0f4f7 0%, #e0e6ec 100%);\n            --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.05);\n            --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.08);\n        }\n\n        body {\n            font-family: 'Inter', sans-serif;\n            margin: 0;\n            padding: 0;\n            background: var(--gradient-soft);\n            color: var(--color-text-dark);\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        header {\n            background: var(--color-surface);\n            padding: 1.5rem 2rem;\n            box-shadow: var(--shadow-subtle);\n            text-align: center;\n            border-bottom: 1px solid #e0e0e0;\n        }\n\n        header h1 {\n            font-family: 'Playfair Display', serif;\n            font-size: 2.5rem;\n            color: var(--color-primary-dark);\n            margin: 0;\n            line-height: 1.2;\n        }\n\n        header p {\n            font-size: 1.1rem;\n            color: var(--color-text-light);\n            margin-top: 0.5rem;\n            max-width: 800px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .container {\n            flex-grow: 1;\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 2.5rem;\n            padding: 2.5rem;\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n\n        @media (min-width: 992px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n            }\n        }\n\n        .main-content {\n            background: var(--color-surface);\n            padding: 2.5rem;\n            border-radius: 12px;\n            box-shadow: var(--shadow-card);\n            display: flex;\n            flex-direction: column;\n        }\n\n        .sidebar {\n            background: var(--color-surface);\n            padding: 2.5rem;\n            border-radius: 12px;\n            box-shadow: var(--shadow-card);\n            display: flex;\n            flex-direction: column;\n            gap: 2rem;\n        }\n\n        h2 {\n            font-family: 'Playfair Display', serif;\n            font-size: 2rem;\n            color: var(--color-primary-dark);\n            margin-top: 0;\n            margin-bottom: 1.5rem;\n            border-bottom: 2px solid var(--color-primary);\n            padding-bottom: 0.5rem;\n        }\n\n        form {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 1.5rem;\n            margin-bottom: 2rem;\n        }\n\n        @media (min-width: 768px) {\n            form {\n                grid-template-columns: 1fr 1fr;\n            }\n        }\n\n        .form-group {\n            display: flex;\n            flex-direction: column;\n        }\n\n        label {\n            font-weight: 600;\n            margin-bottom: 0.6rem;\n            color: var(--color-text-dark);\n            font-size: 0.95rem;\n        }\n\n        input[type=\"number\"],\n        select,\n        textarea {\n            padding: 0.8rem 1rem;\n            border: 1px solid #ced4da;\n            border-radius: 8px;\n            font-size: 1rem;\n            color: var(--color-text-dark);\n            background-color: #fcfcfc;\n            transition: border-color 0.2s ease, box-shadow 0.2s ease;\n        }\n\n        input[type=\"number\"]:focus,\n        select:focus,\n        textarea:focus {\n            border-color: var(--color-primary);\n            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);\n            outline: none;\n        }\n\n        textarea {\n            min-height: 100px;\n            resize: vertical;\n        }\n\n        button {\n            grid-column: 1 / -1;\n            padding: 1.1rem 2rem;\n            background-color: var(--color-primary);\n            color: white;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.1rem;\n            font-weight: 700;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);\n            margin-top: 1rem;\n        }\n\n        button:hover {\n            background-color: var(--color-primary-dark);\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            margin-top: 2.5rem;\n            padding-top: 2rem;\n            border-top: 1px dashed #e0e0e0;\n        }\n\n        #tool-result h3 {\n            font-family: 'Playfair Display', serif;\n            font-size: 1.75rem;\n            color: var(--color-primary-dark);\n            margin-bottom: 1.2rem;\n        }\n\n        .result-section {\n            background-color: #f7fff7;\n            border: 1px solid #d4edda;\n            border-left: 5px solid var(--color-primary);\n            border-radius: 8px;\n            padding: 1.5rem;\n            margin-bottom: 1.5rem;\n        }\n\n        .result-section h4 {\n            color: var(--color-primary-dark);\n            font-size: 1.25rem;\n            margin-top: 0;\n            margin-bottom: 0.8rem;\n        }\n\n        .result-section ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .result-section li {\n            background-color: #e6ffe6;\n            border-radius: 6px;\n            padding: 0.8rem 1.2rem;\n            margin-bottom: 0.6rem;\n            display: flex;\n            align-items: center;\n            gap: 0.8rem;\n            color: var(--color-text-dark);\n            font-size: 0.95rem;\n        }\n\n        .result-section li::before {\n            content: '🌿';\n            font-size: 1.2em;\n        }\n\n        .value-prop {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 1.5rem;\n            border-radius: 8px;\n            font-weight: 600;\n            text-align: center;\n        }\n\n        .value-prop p {\n            margin: 0;\n            font-size: 1.1rem;\n        }\n\n        .testimonial {\n            background-color: #f0f8f0;\n            border: 1px solid #d4edda;\n            padding: 1.5rem;\n            border-radius: 8px;\n            font-style: italic;\n            color: var(--color-text-light);\n            position: relative;\n        }\n\n        .testimonial::before {\n            content: \"“\";\n            font-family: 'Playfair Display', serif;\n            font-size: 3rem;\n            color: var(--color-accent);\n            position: absolute;\n            top: 0.5rem;\n            left: 1rem;\n            opacity: 0.6;\n        }\n\n        .testimonial p {\n            margin: 0;\n            padding-left: 2rem;\n        }\n\n        .testimonial span {\n            display: block;\n            margin-top: 1rem;\n            text-align: right;\n            font-style: normal;\n            font-weight: 600;\n            color: var(--color-primary-dark);\n        }\n\n        footer {\n            background: var(--color-text-dark);\n            color: #E0E0E0;\n            padding: 2.5rem 2rem;\n            text-align: center;\n            margin-top: 4rem;\n        }\n\n        footer h3 {\n            font-family: 'Playfair Display', serif;\n            font-size: 1.8rem;\n            color: var(--color-accent);\n            margin-bottom: 1.5rem;\n        }\n\n        footer p {\n            font-size: 0.95rem;\n            margin-bottom: 1rem;\n            line-height: 1.5;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        footer a {\n            color: var(--color-primary);\n            text-decoration: none;\n            transition: color 0.2s ease;\n        }\n\n        footer a:hover {\n            color: var(--color-accent);\n            text-decoration: underline;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://generateur-d-itineraires-de-randonnee-personnalises-3.onrender.com\">\n    <meta property=\"og:title\" content=\"Générateur d&#x27;Itinéraires de Randonnée Personnalisés\">\n    <meta property=\"og:description\" content=\"Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d\">\n    <meta property=\"og:url\" content=\"https://generateur-d-itineraires-de-randonnee-personnalises-3.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Générateur d'Itinéraires de Randonnée Personnalisés\", \"description\": \"Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d\", \"url\": \"https://generateur-d-itineraires-de-randonnee-personnalises-3.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"generateur-d-itineraires-de-randonnee-personnalises-3\" data-runtime-mode=\"document_generator\">\n    <header>\n        <h1>Générateur d'Itinéraires de Randonnée Personnalisés</h1>\n        <p>Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d'intérêt et obtenez un itinéraire optimisé.</p>\n    </header>\n\n    <div class=\"container\">\n        <main class=\"main-content\">\n            <h2>Votre Aventure Française sur Mesure</h2>\n            <p>Explorez la richesse du patrimoine naturel français avec des itinéraires pensés pour vous. Que vous soyez un randonneur aguerri ou une famille en quête de balades douces, notre outil vous aide à concevoir l'expérience parfaite.</p>\n\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"duree\">Durée estimée (heures)</label>\n                    <input type=\"number\" id=\"duree\" name=\"duree\" min=\"1\" max=\"24\" value=\"4\" required>\n                </div>\n\n                <div class=\"form-group\">\n                    <label for=\"denivele\">Dénivelé souhaité (mètres)</label>\n                    <input type=\"number\" id=\"denivele\" name=\"denivele\" min=\"0\" max=\"3000\" value=\"300\" required>\n                </div>\n\n                <div class=\"form-group\">\n                    <label for=\"terrain\">Type de terrain</label>\n                    <select id=\"terrain\" name=\"terrain\" required>\n                        <option value=\"facile\">Facile (sentiers balisés, peu de pente)</option>\n                        <option value=\"modere\">Modéré (chemins accidentés, montées/descentes)</option>\n                        <option value=\"difficile\">Difficile (haute montagne, passages techniques)</option>\n                    </select>\n                </div>\n\n                <div class=\"form-group\">\n                    <label for=\"region\">Région de France</label>\n                    <select id=\"region\" name=\"region\" required>\n                        <option value=\"alpes\">Alpes</option>\n                        <option value=\"pyrenees\">Pyrénées</option>\n                        <option value=\"jura\">Jura</option>\n                        <option value=\"vosges\">Vosges</option>\n                        <option value=\"massif-central\">Massif Central</option>\n                        <option value=\"bretagne\">Bretagne</option>\n                        <option value=\"provence\">Provence-Alpes-Côte d'Azur</option>\n                        <option value=\"loire\">Pays de la Loire</option>\n                        <option value=\"corse\">Corse</option>\n                        <option value=\"normandie\">Normandie</option>\n                    </select>\n                </div>\n\n                <div class=\"form-group\" style=\"grid-column: 1 / -1;\">\n                    <label for=\"interets\">Points d'intérêt (mots-clés séparés par des virgules)</label>\n                    <textarea id=\"interets\" name=\"interets\" placeholder=\"Ex: lac, château, forêt, cascade, vue panoramique...\"></textarea>\n                </div>\n\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"generate-hike\">Générer mon Itinéraire</button>\n            </form>\n\n            <div id=\"tool-result\">\n                <h3 id=\"result-headline\">Votre Itinéraire Recommandé</h3>\n                <p>Vos préférences nous aideront à tracer le chemin idéal.</p>\n            </div>\n        </main>\n\n        <aside class=\"sidebar\">\n            <div class=\"value-prop\">\n                <p>La France regorge de trésors. Ne manquez rien avec nos parcours optimisés !</p>\n            </div>\n\n            <div class=\"testimonial\">\n                <p>« J'ai toujours rêvé de découvrir les Gorges du Verdon à mon rythme, et cet outil a rendu ça possible. L'itinéraire était parfait, avec des points de vue incroyables ! »</p>\n                <span>— Sophie M., Marseillaise</span>\n            </div>\n\n            <div class=\"value-prop\" style=\"background-color: var(--color-accent); color: var(--color-text-dark);\">\n                <p>Intégrez des cartes interactives et des points de vue incontournables.</p>\n            </div>\n        </aside>\n    </div>\n\n    <footer>\n        <h3>Randonnée en France : Nature & Patrimoine</h3>\n        <p>La France offre une diversité incroyable de paysages pour les randonneurs de tous niveaux. Des sommets majestueux des Alpes aux sentiers côtiers de la Bretagne, en passant par les volcans d'Auvergne et les calanques de Provence, chaque région invite à l'évasion. Utilisez notre générateur pour planifier vos futures aventures et découvrir des lieux emblématiques ou des trésors cachés. Randonnée facile pour les familles, trekking engagé pour les experts, balade historique ou découverte de la faune et la flore locales : votre prochaine sortie en pleine nature commence ici. Préparez votre sac à dos, chaussez vos bottes et laissez-vous guider par un itinéraire créé sur mesure pour vous.</p>\n        <p>&copy; 2023 Générateur de Randonnée. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n\n            const duree = parseInt(document.getElementById('duree').value);\n            const denivele = parseInt(document.getElementById('denivele').value);\n            const terrain = document.getElementById('terrain').value;\n            const region = document.getElementById('region').value;\n            const interets = document.getElementById('interets').value.split(',').map(s => s.trim()).filter(s => s.length > 0);\n\n            const resultDiv = document.getElementById('tool-result');\n            resultDiv.innerHTML = `<h3>Votre Itinéraire Recommandé</h3>`;\n\n            const itineraires = generateItineraires(duree, denivele, terrain, region, interets);\n\n            itineraires.forEach(itineraire => {\n                const section = document.createElement('div');\n                section.classList.add('result-section');\n                section.innerHTML = `\n                    <h4>${itineraire.titre}</h4>\n                    <ul>\n                        <li><strong>Durée Estimée :</strong> ${itineraire.duree} heures</li>\n                        <li><strong>Dénivelé :</strong> ${itineraire.denivele} mètres</li>\n                        <li><strong>Difficulté :</strong> ${itineraire.difficulte}</li>\n                        <li><strong>Région :</strong> ${itineraire.region}</li>\n                        <li><strong>Points Forts :</strong> ${itineraire.pointsForts.join(', ')}</li>\n                        <li><strong>Conseil :</strong> ${itineraire.conseil}</li>\n                    </ul>\n                `;\n                resultDiv.appendChild(section);\n            });\n\n            if (itineraires.length === 0) {\n                resultDiv.innerHTML += '<p>Aucun itinéraire ne correspond exactement à vos critères. Essayez d\\'ajuster vos préférences.</p>';\n            }\n        });\n\n        function generateItineraires(duree, denivele, terrain, region, interets) {\n            const baseItineraires = [\n                {\n                    titre: \"Randonnée Classique autour du Lac d'Annecy\",\n                    duree: 3, denivele: 150, difficulte: \"Facile\", region: \"Alpes\",\n                    pointsForts: [\"lac\", \"vues panoramiques\", \"forêt\"],\n                    conseil: \"Parfait pour une après-midi en famille, avec possibilité de baignade.\"\n                },\n                {\n                    titre: \"Ascension du Puy de Dôme\",\n                    duree: 4, denivele: 450, difficulte: \"Modéré\", region: \"Massif Central\",\n                    pointsForts: [\"volcan\", \"vue panoramique\", \"patrimoine historique\"],\n                    conseil: \"Montée régulière, récompense par une vue imprenable sur la Chaîne des Puys.\"\n                },\n                {\n                    titre: \"Sentier des Douaniers, Côte de Granit Rose\",\n                    duree: 5, denivele: 50, difficulte: \"Facile\", region: \"Bretagne\",\n                    pointsForts: [\"côte\", \"paysages maritimes\", \"rochers roses\"],\n                    conseil: \"Idéal pour admirer les formations rocheuses uniques et l'air marin.\"\n                },\n                {\n                    titre: \"Crêtes des Vosges, Lac Blanc\",\n                    duree: 6, denivele: 600, difficulte: \"Modéré\", region: \"Vosges\",\n                    pointsForts: [\"lac\", \"forêt\", \"vues panoramiques\"],\n                    conseil: \"Un classique des Vosges, avec de beaux points de vue et des refuges.\"\n                },\n                {\n                    titre: \"Tour du Mont Blanc (étape française)\",\n                    duree: 8, denivele: 1000, difficulte: \"Difficile\", region: \"Alpes\",\n                    pointsForts: [\"haute montagne\", \"glacier\", \"faune sauvage\"],\n                    conseil: \"Pour les randonneurs expérimentés, des panoramas alpins grandioses.\"\n                },\n                {\n                    titre: \"Calanques de Marseille à Cassis\",\n                    duree: 7, denivele: 400, difficulte: \"Modéré\", region: \"Provence-Alpes-Côte d'Azur\",\n                    pointsForts: [\"côte\", \"calanques\", \"plage\", \"eaux turquoises\"],\n                    conseil: \"Prévoyez de l'eau et de bonnes chaussures pour ces paysages emblématiques.\"\n                },\n                {\n                    titre: \"Forêt de Brocéliande et son mythe\",\n                    duree: 3, denivele: 50, difficulte: \"Facile\", region: \"Bretagne\",\n                    pointsForts: [\"forêt\", \"légendes\", \"lac\", \"château\"],\n                    conseil: \"Une balade enchantée sur les traces du Roi Arthur et de Merlin.\"\n                },\n                {\n                    titre: \"Cirque de Gavarnie, Pyrénées\",\n                    duree: 5, denivele: 350, difficulte: \"Modéré\", region: \"Pyrénées\",\n                    pointsForts: [\"cascade\", \"cirque naturel\", \"montagne\"],\n                    conseil: \"Un site classé au patrimoine mondial de l'UNESCO, spectaculaire en toute saison.\"\n                }\n            ];\n\n            const filteredItineraires = baseItineraires.filter(itineraire => {\n                const dureeMatch = Math.abs(itineraire.duree - duree) <= 2;\n                const deniveleMatch = Math.abs(itineraire.denivele - denivele) <= (denivele * 0.5);\n                const terrainMatch = (terrain === 'facile' && itineraire.difficulte === 'Facile') ||\n                                     (terrain === 'modere' && (itineraire.difficulte === 'Facile' || itineraire.difficulte === 'Modéré')) ||\n                                     (terrain === 'difficile' && (itineraire.difficulte === 'Modéré' || itineraire.difficulte === 'Difficile'));\n                const regionMatch = itineraire.region.toLowerCase().includes(region.toLowerCase());\n                const interetsMatch = interets.length === 0 || interets.some(int => itineraire.pointsForts.some(pf => pf.includes(int.toLowerCase())));\n\n                return dureeMatch && deniveleMatch && terrainMatch && regionMatch && interetsMatch;\n            });\n\n            // If no exact match, try to provide a broader suggestion based on region or difficulty\n            if (filteredItineraires.length === 0 && (region || interets.length > 0)) {\n                return baseItineraires.filter(itineraire =>\n                    itineraire.region.toLowerCase().includes(region.toLowerCase()) ||\n                    interets.some(int => itineraire.pointsForts.some(pf => pf.includes(int.toLowerCase())))\n                ).slice(0, 2); // Return up to 2 less specific suggestions\n            }\n\n            return filteredItineraires.slice(0, 3); // Return up to 3 best matches\n        }\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
