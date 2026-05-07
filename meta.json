@@ -11,17 +11,17 @@
   "country": "FR",
   "url": null,
   "expected_url": "https://generateur-d-itineraires-de-randonnee-personnalises-3.onrender.com",
-  "created": "2026-05-07T10:58:01.941983+00:00",
+  "created": "2026-05-07T11:45:01.102861+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1778151481381",
+  "run_id": "run-1778154300139",
   "publish_target": "render",
   "mode": "production",
   "source_type": "imported",
-  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/generateur-d-itineraires-de-randonnee-personnalises-3",
-  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/generateur-d-itineraires-de-randonnee-personnalises-3",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778152198723/generateur-d-itineraires-de-randonnee-personnalises-3",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778152198723/generateur-d-itineraires-de-randonnee-personnalises-3",
   "import_resolution_note": null,
   "analysis": {
     "model": "preserved-analysis",
@@ -64,6 +64,35 @@
         "summary": "A safer non-anchor URL block was applied near the bottom of the page with contextual copy.",
         "issues": []
       }
+    },
+    "content": {
+      "status": "ready",
+      "updated_at": "2026-05-07T11:10:28.145888+00:00",
+      "article_count": 1,
+      "anchor_article_count": 1,
+      "plain_url_article_count": 0,
+      "batch_anchor_article_count": 1,
+      "batch_plain_url_article_count": 4,
+      "total_batch_articles": 5,
+      "links": 1,
+      "anchor_keywords": [
+        "spinaura casino"
+      ],
+      "section_title": "Ressources complémentaires",
+      "pages": [
+        {
+          "slug": "generateur-d-itineraires-de-randonnee-personnal-80b104e2",
+          "path": "/var/lib/utility-site-studio/sites/generateur-d-itineraires-de-randonnee-personnalises-3/insights/generateur-d-itineraires-de-randonnee-personnal-80b104e2.html",
+          "title": "Générateur d'Itinéraires de Randonnée Personnalisés — Guide 1",
+          "link_mode": "anchor_text"
+        }
+      ],
+      "review": {
+        "status": "pass",
+        "score": 82,
+        "summary": "A safer fallback content bundle was applied with clean supporting pages and a restrained homepage knowledge section.",
+        "issues": []
+      }
     }
   },
   "ahrefs": {
@@ -104,7 +133,7 @@
       "status": "published",
       "repo_name": "generateur-d-itineraires-de-randonnee-personnalises-3",
       "repo_url": "https://github.com/olivkovyi/generateur-d-itineraires-de-randonnee-personnalises-3",
-      "updated_at": 1776104163
+      "updated_at": 1778151536
     },
     "deployment": {
       "status": "ready",
@@ -112,14 +141,14 @@
       "service_id": "srv-d7ej6f9j2pic73a408v0",
       "project_name": "generateur-d-itineraires-de-randonnee-personnalises-3",
       "requested_project_name": null,
-      "deployment_id": "dep-d7ej6fpj2pic73a40970",
+      "deployment_id": "dep-d7u71o7avr4c73ddf89g",
       "deployment_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
       "public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
       "expected_public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
       "dashboard_url": "https://dashboard.render.com/static/srv-d7ej6f9j2pic73a408v0",
       "ready_state": "live",
       "target": "production",
-      "updated_at": 1776104180,
+      "updated_at": 1778151560,
       "requested_public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
       "url_source": "alias"
     },
@@ -194,38 +223,38 @@
             "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
           }
         ],
-        "checked_at": 1778151460
+        "checked_at": 1778154072
       },
       "functional": {
         "status": "pass",
         "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
-        "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+        "target_url": "http://127.0.0.1:44483/index.html?__qa=functional",
         "mode": "native-form",
         "headline": "Votre Itinéraire Recommandé",
         "primary_url": "",
         "desktop": {
           "status": "pass",
           "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+          "target_url": "http://127.0.0.1:44483/index.html?__qa=functional",
           "viewport": "desktop",
           "mode": "native-form",
           "headline": "Votre Itinéraire Recommandé",
           "primary_url": "",
           "reported_viewport": "desktop",
-          "updated_at": 1778151462
+          "updated_at": 1778154073
         },
         "mobile": {
           "status": "pass",
           "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+          "target_url": "http://127.0.0.1:44483/index.html?__qa=functional",
           "viewport": "mobile",
           "mode": "native-form",
           "headline": "Votre Itinéraire Recommandé",
           "primary_url": "",
           "reported_viewport": "mobile",
-          "updated_at": 1778151463
+          "updated_at": 1778154074
         },
-        "updated_at": 1778151463
+        "updated_at": 1778154074
       },
       "remote": {
         "status": "pass",
@@ -246,7 +275,7 @@
             "detail": "Remote HTML contains a body tag"
           }
         ],
-        "checked_at": 1778151463
+        "checked_at": 1778154074
       },
       "visual": {
         "status": "pass",
@@ -262,21 +291,21 @@
           "detail": "430x932 screenshot captured.",
           "relative_url": "/static/generated-qa/generateur-d-itineraires-de-randonnee-personnalises-3/generateur-d-itineraires-de-randonnee-personnalises-3-mobile.png"
         },
-        "updated_at": 1778151465
+        "updated_at": 1778154076
       },
       "lighthouse": {
         "status": "pass",
         "scores": {
-          "performance": 91,
-          "accessibility": 91,
+          "performance": 92,
+          "accessibility": 93,
           "best-practices": 100,
           "seo": 100
         },
         "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/generateur-d-itineraires-de-randonnee-personnalises-3-lighthouse.json",
-        "updated_at": 1778151481
+        "updated_at": 1778154090
       },
       "qa_live_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
-      "updated_at": "2026-05-07T10:58:01.242585+00:00"
+      "updated_at": "2026-05-07T11:41:30.625816+00:00"
     }
   }
 }
