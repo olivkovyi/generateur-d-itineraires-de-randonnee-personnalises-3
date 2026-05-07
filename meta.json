@@ -1,23 +1,38 @@
 {
+  "slug": "generateur-d-itineraires-de-randonnee-personnalises-3",
   "name": "Générateur d'Itinéraires de Randonnée Personnalisés",
   "description": "Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d",
   "theme": "generator",
-  "design_theme": "kinetic-minimal",
-  "structure_preset": "split-command",
-  "render_direction": "campaign-slab",
-  "page_blueprint": "campaign-mosaic",
+  "design_theme": "imported-source",
+  "structure_preset": "external-source",
+  "render_direction": "imported-source",
+  "page_blueprint": "imported-source",
   "language": "fr",
   "country": "FR",
   "url": null,
   "expected_url": "https://generateur-d-itineraires-de-randonnee-personnalises-3.onrender.com",
-  "created": "2026-04-13T18:14:37.480816+00:00",
+  "created": "2026-05-07T10:58:01.941983+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1776103339958",
+  "run_id": "run-1778151481381",
   "publish_target": "render",
   "mode": "production",
+  "source_type": "imported",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/generateur-d-itineraires-de-randonnee-personnalises-3",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/generateur-d-itineraires-de-randonnee-personnalises-3",
+  "import_resolution_note": null,
+  "analysis": {
+    "model": "preserved-analysis",
+    "summary": "Créez des parcours de randonnée sur mesure en France. Spécifiez la durée, le dénivelé, le type de terrain, les points d",
+    "notes": "Growth module republish of an updated local artifact.",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "generator"
+    ]
+  },
   "github": {
     "status": "pending"
   },
@@ -28,13 +43,240 @@
     "status": "pending"
   },
   "features": [
-    "Hero pattern: split",
-    "Proof module: metrics",
-    "Design theme: Kinetic Minimal",
-    "Render direction: Campaign Slab",
-    "Page blueprint: Campaign Mosaic",
-    "Runtime mode: document_generator",
-    "Generation mode: direct_html",
-    "Artifact rendered, awaiting QA and deployment"
-  ]
+    "Imported from ready static files",
+    "AI analysis model: preserved-analysis",
+    "imported static site",
+    "ready file deploy",
+    "generator"
+  ],
+  "growth": {
+    "affiliate": {
+      "status": "ready",
+      "updated_at": "2026-05-07T10:57:39.328145+00:00",
+      "modes": [
+        "plain_url_text"
+      ],
+      "links": 1,
+      "insertions": 1,
+      "review": {
+        "status": "pass",
+        "score": 84,
+        "summary": "A safer non-anchor URL block was applied near the bottom of the page with contextual copy.",
+        "issues": []
+      }
+    }
+  },
+  "ahrefs": {
+    "status": "ready",
+    "synced_at": "2026-04-29T13:25:53.585518+00:00",
+    "country": "FR",
+    "target_url": "https://generateur-d-itineraires-de-randonnee.onrender.com/",
+    "target_host": "generateur-d-itineraires-de-randonnee.onrender.com",
+    "current_live_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+    "domain_rating": 89.0,
+    "ahrefs_rank": 2041,
+    "backlinks": 105,
+    "refdomains": 99,
+    "org_traffic": 0,
+    "org_keywords": 0,
+    "org_keywords_1_3": 0,
+    "org_keywords_4_10": 0,
+    "org_keywords_11_20": 0,
+    "org_keywords_21_50": 0,
+    "org_keywords_51_plus": 0,
+    "top_country": null,
+    "top_country_traffic": null,
+    "detail": "Ahrefs metrics synced via Batch Analysis.",
+    "shared_host": true,
+    "metrics_scope": "shared-host",
+    "shared_host_provider": "Render",
+    "shared_host_note": "Сайт живёт на Render shared host (generateur-d-itineraires-de-randonnee.onrender.com). DR и Ahrefs Rank в таком режиме частично отражают силу хост-домена, поэтому смотри в первую очередь на keywords, ref domains, traffic и top pages.",
+    "opportunity_score": 28,
+    "opportunity_band": "warming-up",
+    "opportunity_label": "Warming up",
+    "opportunity_detail": "99 ref domains · shared-host: DR/AR смотри осторожно."
+  },
+  "previous_live_state": {
+    "url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+    "expected_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+    "requested_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+    "github": {
+      "status": "published",
+      "repo_name": "generateur-d-itineraires-de-randonnee-personnalises-3",
+      "repo_url": "https://github.com/olivkovyi/generateur-d-itineraires-de-randonnee-personnalises-3",
+      "updated_at": 1776104163
+    },
+    "deployment": {
+      "status": "ready",
+      "provider": "render",
+      "service_id": "srv-d7ej6f9j2pic73a408v0",
+      "project_name": "generateur-d-itineraires-de-randonnee-personnalises-3",
+      "requested_project_name": null,
+      "deployment_id": "dep-d7ej6fpj2pic73a40970",
+      "deployment_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+      "public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+      "expected_public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+      "dashboard_url": "https://dashboard.render.com/static/srv-d7ej6f9j2pic73a408v0",
+      "ready_state": "live",
+      "target": "production",
+      "updated_at": 1776104180,
+      "requested_public_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+      "url_source": "alias"
+    },
+    "qa": {
+      "status": "pass",
+      "local": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "index_exists",
+            "status": "pass",
+            "detail": "index.html exists"
+          },
+          {
+            "name": "meta_exists",
+            "status": "pass",
+            "detail": "meta.json exists"
+          },
+          {
+            "name": "robots_exists",
+            "status": "pass",
+            "detail": "robots.txt exists"
+          },
+          {
+            "name": "has_title",
+            "status": "pass",
+            "detail": "HTML contains a title tag"
+          },
+          {
+            "name": "has_viewport",
+            "status": "pass",
+            "detail": "HTML contains a mobile viewport meta tag"
+          },
+          {
+            "name": "has_canonical",
+            "status": "pass",
+            "detail": "HTML contains a canonical URL"
+          },
+          {
+            "name": "bundle_size",
+            "status": "pass",
+            "detail": "Generated HTML stays below 250KB"
+          },
+          {
+            "name": "functional_qa_hook",
+            "status": "pass",
+            "detail": "Generated HTML includes the browser QA hook used before deploy."
+          },
+          {
+            "name": "inline_script_syntax",
+            "status": "pass",
+            "detail": "Inline JavaScript syntax check passed."
+          },
+          {
+            "name": "robots_google_only",
+            "status": "pass",
+            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+          },
+          {
+            "name": "no_meta_noindex",
+            "status": "pass",
+            "detail": "Generated HTML does not inject a noindex robots meta tag."
+          },
+          {
+            "name": "no_internal_branding",
+            "status": "pass",
+            "detail": "Generated site does not leak internal platform branding or internal product naming."
+          },
+          {
+            "name": "desktop_layout_overlap",
+            "status": "pass",
+            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+          }
+        ],
+        "checked_at": 1778151460
+      },
+      "functional": {
+        "status": "pass",
+        "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+        "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+        "mode": "native-form",
+        "headline": "Votre Itinéraire Recommandé",
+        "primary_url": "",
+        "desktop": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+          "viewport": "desktop",
+          "mode": "native-form",
+          "headline": "Votre Itinéraire Recommandé",
+          "primary_url": "",
+          "reported_viewport": "desktop",
+          "updated_at": 1778151462
+        },
+        "mobile": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:43139/index.html?__qa=functional",
+          "viewport": "mobile",
+          "mode": "native-form",
+          "headline": "Votre Itinéraire Recommandé",
+          "primary_url": "",
+          "reported_viewport": "mobile",
+          "updated_at": 1778151463
+        },
+        "updated_at": 1778151463
+      },
+      "remote": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "remote_200",
+            "status": "pass",
+            "detail": "Remote deployment returned HTTP 200"
+          },
+          {
+            "name": "remote_title",
+            "status": "pass",
+            "detail": "Remote HTML contains a title tag"
+          },
+          {
+            "name": "remote_body",
+            "status": "pass",
+            "detail": "Remote HTML contains a body tag"
+          }
+        ],
+        "checked_at": 1778151463
+      },
+      "visual": {
+        "status": "pass",
+        "desktop": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/generateur-d-itineraires-de-randonnee-personnalises-3/generateur-d-itineraires-de-randonnee-personnalises-3-desktop.png",
+          "detail": "1440x960 screenshot captured.",
+          "relative_url": "/static/generated-qa/generateur-d-itineraires-de-randonnee-personnalises-3/generateur-d-itineraires-de-randonnee-personnalises-3-desktop.png"
+        },
+        "mobile": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/generateur-d-itineraires-de-randonnee-personnalises-3/generateur-d-itineraires-de-randonnee-personnalises-3-mobile.png",
+          "detail": "430x932 screenshot captured.",
+          "relative_url": "/static/generated-qa/generateur-d-itineraires-de-randonnee-personnalises-3/generateur-d-itineraires-de-randonnee-personnalises-3-mobile.png"
+        },
+        "updated_at": 1778151465
+      },
+      "lighthouse": {
+        "status": "pass",
+        "scores": {
+          "performance": 91,
+          "accessibility": 91,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/generateur-d-itineraires-de-randonnee-personnalises-3-lighthouse.json",
+        "updated_at": 1778151481
+      },
+      "qa_live_url": "https://generateur-d-itineraires-de-randonnee.onrender.com",
+      "updated_at": "2026-05-07T10:58:01.242585+00:00"
+    }
+  }
 }
